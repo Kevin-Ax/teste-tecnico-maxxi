@@ -1,7 +1,7 @@
 import requests
 import csv
 
-
+# função que fará a a chama das requisições, extração dos dados e passará para os arquivos passados como parâmetro
 def get_data_from_API(file_name, api_url):
     files_path = file_name    #Criando o path e o arquivo para inserção dos dados
     with open(files_path, mode='w', newline='') as file:    # Iniciando o processo de escrita no arquivo criado
@@ -15,7 +15,7 @@ def get_data_from_API(file_name, api_url):
             writer.writeheader()    # Escrevendo o 'cabeçalho' do csv
             writer.writerow(data)   # Escrvenedo a primeira linha 
             # agora precisamos escrever as outroas linhas do arquivo, com as 4 páginas restantes da API
-            for i in range(2,6):
+            for i in range(2,5):
                 # fazendo a url para a requisição, agora para cada página
                 url_people = api_url + str(i)
                 # fazendo a requisição para a api 
@@ -24,6 +24,7 @@ def get_data_from_API(file_name, api_url):
                     data = res.json()   # Pegando os dados da resposta
                     writer.writerow(data)   # Escrevendo a respectiva linha no arquivo
 
+# Chamando as funções para criação de todos os dataFrames
 get_data_from_API("raw/people.csv", "https://swapi.dev/api/people/")
 get_data_from_API("raw/planets.csv", "https://swapi.dev/api/planets/")
 get_data_from_API("raw/films.csv", "https://swapi.dev/api/films/")

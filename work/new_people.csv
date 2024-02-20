@@ -1,0 +1,5 @@
+name,height,mass,hair_color,skin_color,eye_color,birth_year,gender,homeworld,films,species,vehicles,starships,created,edited,url
+luke skywalker,172,77,blond,fair,blue,bby,male,httpsswapidevapiplanets,httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms,,httpsswapidevapivehicles httpsswapidevapivehicles,httpsswapidevapistarships httpsswapidevapistarships,tz,tz,httpsswapidevapipeople
+cpo,167,75,,gold,yellow,bby,,httpsswapidevapiplanets,httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms,httpsswapidevapispecies,,,tz,tz,httpsswapidevapipeople
+rd,96,32,,white blue,red,bby,,httpsswapidevapiplanets,httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms,httpsswapidevapispecies,,,tz,tz,httpsswapidevapipeople
+darth vader,202,136,none,white,yellow,bby,male,httpsswapidevapiplanets,httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms,,,httpsswapidevapistarships,tz,tz,httpsswapidevapipeople

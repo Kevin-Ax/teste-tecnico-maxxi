@@ -1,0 +1,5 @@
+name,rotation_period,orbital_period,diameter,climate,gravity,terrain,surface_water,population,residents,films,created,edited,url
+tatooine,23,304,10465,arid, standard,desert,1,,httpsswapidevapipeople httpsswapidevapipeople httpsswapidevapipeople httpsswapidevapipeople httpsswapidevapipeople httpsswapidevapipeople httpsswapidevapipeople httpsswapidevapipeople httpsswapidevapipeople httpsswapidevapipeople,httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms httpsswapidevapifilms,tz,tz,httpsswapidevapiplanets
+alderaan,24,364,12500,temperate, standard,grasslands mountains,40,,httpsswapidevapipeople httpsswapidevapipeople httpsswapidevapipeople,httpsswapidevapifilms httpsswapidevapifilms,tz,tz,httpsswapidevapiplanets
+yavin iv,24,4818,10200,temperate tropical, standard,jungle rainforests,8,,,httpsswapidevapifilms,tz,tz,httpsswapidevapiplanets
+hoth,23,549,7200,frozen, standard,tundra ice caves mountain ranges,100,unknown,,httpsswapidevapifilms,tz,tz,httpsswapidevapiplanets
